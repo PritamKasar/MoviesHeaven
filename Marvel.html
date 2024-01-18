@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MoviesHeaven</title>
+  <link rel="icon" href="images/clapperboard.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body background="images/1920 x 1080 HD Wallpapers 481.jpg">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary;p-3 mb-2 bg-dark text-white">
+    <div style="display: flexbox;" class="container-fluid">
+      <img rel="icon" src="images/clapperboard.png" type="image/x-icon" height="50" width="45">
+      <a style="padding-left: 3vh;color: white;font-family: 'Dancing Script', cursive;font-size: xx-large;" class="navbar-brand" href="index.html">MoviesHeaven</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a style="color: white;" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              category
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark ">
+              <li><a class="dropdown-item" href="Action.html">Action</a></li>
+              <li><a class="dropdown-item" href="Horror.html">Horror</a></li>
+              <li><a class="dropdown-item" href="Sci-Fi.html">Sci-Fi</a></li>
+              <li><a class="dropdown-item" href="Marvel.html">Marvel</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="text" id="filter" onkeyup="search()" placeholder="Search"
+            aria-label="Search">
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a style="color: #DC3545;font-size: 2vh;" href="index.html">Home</a></li>
+      <li style="color: #DC3545;font-size: 2vh;" class="breadcrumb-item active" aria-current="page">Marvel</li>
+    </ol>
+  </div>
+  <div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col">
+        <div class="card border-danger mb-3;card shadow-sm;card text-bg-dark mb-3">
+          <img class="bd-placeholder-img card-img-top" width="100" height="600" src="images/IRON MAN.jpg"
+            alt="IRON MAN">
+          <div class="card-body">
+            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="yellow">
+                <path
+                  d="M12 17.27l4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                </path>
+              </svg>7.9/10</p>
+              <pre style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif" class="card-text">Iron Man (2008) 
+Genre: Action, Adventure, Sci-Fi </pre>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-danger"
+                  onclick="window.location.href='https://drive.google.com/file/d/11DKqxImQ6KRUH115feX7zMfvxsD-9Cvd/view'">Watch/Download</button>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-danger mb-3;card shadow-sm;card text-bg-dark mb-3">
+          <img class="bd-placeholder-img card-img-top" width="100" height="600" src="images/black panther.jpg"
+            alt="BLACK PANTHER">
+          <div class="card-body">
+            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="yellow">
+                <path
+                  d="M12 17.27l4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                </path>
+              </svg>6.7/10</p>
+              <pre style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif" class="card-text">Black Panther (2018)
+Genre: Action, Adventure, Sci-Fi </pre>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-danger"
+                  onclick="window.location.href='https://drive.google.com/file/d/10KClffCNkbgmm5MpFJ2jzZae_9abUW32/view'">Watch/Download</button>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-danger mb-3;card shadow-sm;card text-bg-dark mb-3">
+          <img class="bd-placeholder-img card-img-top" width="100" height="600"
+            src="images/venom-movie-logo-4k-x5-720x1280.jpg" alt="VENOM">
+          <div class="card-body">
+            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="yellow">
+                <path
+                  d="M12 17.27l4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                </path>
+              </svg>6.6/10</p>
+              <pre style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif" class="card-text">Venom (2018)
+Genre: Action, Adventure, Sci-Fi</pre>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-danger"
+                  onclick="window.location.href='Movie_Coming_Soon.html'">Watch/Download</button>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card border-danger mb-3;card shadow-sm;card text-bg-dark mb-3">
+          <img class="bd-placeholder-img card-img-top" width="100" height="600" src="MARVELS/AMAZING SPIDERMAN.jpg"
+            alt="AMAZING SPIDERMAN">
+          <div class="card-body">
+            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="yellow">
+                <path
+                  d="M12 17.27l4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                </path>
+              </svg>6.9/10</p>
+              <pre style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif" class="card-text">The Amazing Spider-Man (2012) 
+Genre: Action, Adventure, Sci-Fi </pre>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-danger"
+                  onclick="window.location.href='Movie_Coming_Soon.html'">Watch/Download</button>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-danger mb-3;card shadow-sm;card text-bg-dark mb-3">
+          <img class="bd-placeholder-img card-img-top" width="100" height="600" src="MARVELS/AVENGERS CIVIL WAR.jpg"
+            alt="AVENGERS CIVIL WAR">
+          <div class="card-body">
+            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="yellow">
+                <path
+                  d="M12 17.27l4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                </path>
+              </svg>7.8/10</p>
+              <pre style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif" class="card-text">Captain America: Civil War (2016)
+Genre: Action, Sci-Fi </pre>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-danger"
+                  onclick="window.location.href='https://drive.google.com/file/d/1PWAr2hcZindveWkxHg_raDmbGt8i77LI/view'">Watch/Download</button>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-danger mb-3;card shadow-sm;card text-bg-dark mb-3">
+          <img class="bd-placeholder-img card-img-top" width="100" height="600" src="MARVELS/DR STRANGE.jpg"
+            alt="DR. STRANGE">
+          <div class="card-body">
+            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="yellow">
+                <path
+                  d="M12 17.27l4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                </path>
+              </svg>7.5/10</p>
+              <pre style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif" class="card-text">Doctor Strange (2016)
+Genre: Action, Adventure, Fantasy </pre>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-danger"
+                  onclick="window.location.href='Movie_Coming_Soon.html'">Watch/Download</button>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card border-danger mb-3;card shadow-sm;card text-bg-dark mb-3">
+          <img class="bd-placeholder-img card-img-top" width="100" height="600" src="MARVELS/THE HULK.jpg"
+            alt="THE HULK">
+          <div class="card-body">
+            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="yellow">
+                <path
+                  d="M12 17.27l4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                </path>
+              </svg>6.6/10</p>
+              <pre style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif" class="card-text">The Incredible Hulk (2008)
+Genre: Action, Adventure, Sci-Fi</pre>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-danger"
+                  onclick="window.location.href='https://drive.google.com/file/d/1E4ugbd9FcQAu9UkKYiDwcw8G5-vgZrhU/view'">Watch/Download</button>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-danger mb-3;card shadow-sm;card text-bg-dark mb-3">
+          <img class="bd-placeholder-img card-img-top" width="100" height="600" src="MARVELS/JESSICA JONES.jpg"
+            alt="JESSICA JONES">
+          <div class="card-body">
+            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="yellow">
+                <path
+                  d="M12 17.27l4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                </path>
+              </svg>7.9/10</p>
+              <pre style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif" class="card-text">Jessica Jones 
+Genre: Action, Crime, Drama </pre>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-danger"
+                  onclick="window.location.href='Movie_Coming_Soon.html'">Watch/Download</button>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-danger mb-3;card shadow-sm;card text-bg-dark mb-3">
+          <img class="bd-placeholder-img card-img-top" width="100" height="600" src="MARVELS/THOR RANGNOROK.jpg"
+            alt="THOER RANGNOROK">
+          <div class="card-body">
+            <p class="card-text"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="yellow">
+                <path
+                  d="M12 17.27l4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z">
+                </path>
+              </svg>7.9/10</p>
+              <pre style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif" class="card-text">Thor: Ragnarok (2017)
+Genre: Action, Adventure, Comedy</pre>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-danger"
+                  onclick="window.location.href='Movie_Coming_Soon.html'">Watch/Download</button>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <footer class="bg-dark text-center text-lg-start text-white">
+      <div class="container p-4">
+        <div class="row mt-4">
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <img rel="icon" src="images/clapperboard.png" type="image/x-icon" height="30" width="25">
+            <a style="text-decoration: none;" href="Action.html" class="text-white"><i class="fas fa-at fa-fw fa-sm me-2"></i>Action</a>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <img rel="icon" src="images/clapperboard.png" type="image/x-icon" height="30" width="25">
+            <a style="text-decoration: none;" href="Horror.html" class="text-white"><i class="fas fa-at fa-fw fa-sm me-2"></i>Horror</a>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <img rel="icon" src="images/clapperboard.png" type="image/x-icon" height="30" width="25">
+            <a style="text-decoration: none;" href="Sci-Fi.html" class="text-white"><i class="fas fa-at fa-fw fa-sm me-2"></i>Sci-Fi</a>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <img rel="icon" src="images/clapperboard.png" type="image/x-icon" height="30" width="25">
+            <a style="text-decoration: none;" href="Marvel.html" class="text-white"><i class="fas fa-at fa-fw fa-sm me-2"></i>Marvel</a>
+          </div>
+        </div>
+      </div>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        <p class="float-end"><a style="text-decoration: none;" href="#"><img src="images/pngwing.com.png" height="50" width="50"></a></p>
+        <div>contact us: <a style="text-decoration: none;" href="mailto:miniprojectwtl@gmail.com">miniprojectwtl@gmail.com</a></div>
+        © Web Technology Mini Project                
+      </div>
+    </footer>
+  </div>
+  <script>
+    function search() {
+      let input = document.getElementById('filter').value
+      input = input.toLowerCase();
+      let x = document.getElementsByClassName('col');
+
+      for (i = 0; i < x.length; i++) {
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+          x[i].style.display = "none";
+        }
+        else {
+          x[i].style.display = "list-item";
+        }
+      }
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
